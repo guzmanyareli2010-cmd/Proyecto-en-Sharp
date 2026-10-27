@@ -61,5 +61,20 @@ namespace Proyecto_en_Sharp
 		
 		    lblResultado.Text = (n1 * n2).ToString();
 		}
+		
+		void BtnModuloClick(object sender, EventArgs e)
+		{
+			double n1 = double.Parse(txt1.Text);
+		    double n2 = double.Parse(txt2.Text);
+		
+		    if (n2 !=0)
+		    {
+		    	lblResultado.Text = (n1 % n2).ToString();
+		    }
+		    else 
+		    {
+		    	MessageBox.Show("No se pude calcular modulo entre 0");
+		    }
+		}   
 	}
 }

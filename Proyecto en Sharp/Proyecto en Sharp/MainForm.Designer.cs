@@ -46,6 +46,7 @@ namespace Proyecto_en_Sharp
 			this.btnMultiplicacion = new System.Windows.Forms.Button();
 			this.btnDivicion = new System.Windows.Forms.Button();
 			this.lblResultado = new System.Windows.Forms.Label();
+			this.btnModulo = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -98,7 +99,7 @@ namespace Proyecto_en_Sharp
 			// 
 			// btnResta
 			// 
-			this.btnResta.Location = new System.Drawing.Point(120, 102);
+			this.btnResta.Location = new System.Drawing.Point(107, 102);
 			this.btnResta.Name = "btnResta";
 			this.btnResta.Size = new System.Drawing.Size(75, 39);
 			this.btnResta.TabIndex = 9;
@@ -108,7 +109,7 @@ namespace Proyecto_en_Sharp
 			// 
 			// btnMultiplicacion
 			// 
-			this.btnMultiplicacion.Location = new System.Drawing.Point(223, 102);
+			this.btnMultiplicacion.Location = new System.Drawing.Point(188, 102);
 			this.btnMultiplicacion.Name = "btnMultiplicacion";
 			this.btnMultiplicacion.Size = new System.Drawing.Size(113, 39);
 			this.btnMultiplicacion.TabIndex = 10;
@@ -118,7 +119,7 @@ namespace Proyecto_en_Sharp
 			// 
 			// btnDivicion
 			// 
-			this.btnDivicion.Location = new System.Drawing.Point(342, 102);
+			this.btnDivicion.Location = new System.Drawing.Point(307, 102);
 			this.btnDivicion.Name = "btnDivicion";
 			this.btnDivicion.Size = new System.Drawing.Size(91, 39);
 			this.btnDivicion.TabIndex = 11;
@@ -133,11 +134,22 @@ namespace Proyecto_en_Sharp
 			this.lblResultado.Size = new System.Drawing.Size(100, 23);
 			this.lblResultado.TabIndex = 12;
 			// 
+			// btnModulo
+			// 
+			this.btnModulo.Location = new System.Drawing.Point(404, 102);
+			this.btnModulo.Name = "btnModulo";
+			this.btnModulo.Size = new System.Drawing.Size(106, 39);
+			this.btnModulo.TabIndex = 13;
+			this.btnModulo.Text = "Modulo";
+			this.btnModulo.UseVisualStyleBackColor = true;
+			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(578, 188);
+			this.Controls.Add(this.btnModulo);
 			this.Controls.Add(this.lblResultado);
 			this.Controls.Add(this.btnDivicion);
 			this.Controls.Add(this.btnMultiplicacion);
@@ -153,6 +165,7 @@ namespace Proyecto_en_Sharp
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnModulo;
 		private System.Windows.Forms.Label lblResultado;
 		private System.Windows.Forms.Button btnDivicion;
 		private System.Windows.Forms.Button btnMultiplicacion;
