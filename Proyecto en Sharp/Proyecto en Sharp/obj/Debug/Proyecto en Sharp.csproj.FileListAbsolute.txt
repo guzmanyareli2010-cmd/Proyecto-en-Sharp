@@ -1,0 +1,7 @@
+C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\obj\Debug\Proyecto en Sharp.csprojResolveAssemblyReference.cache
+C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\obj\Debug\Proyecto_en_Sharp.MainForm.resources
+C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\obj\Debug\Proyecto en Sharp.csproj.GenerateResource.Cache
+C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\bin\Debug\Proyecto en Sharp.exe
+C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\bin\Debug\Proyecto en Sharp.pdb
+C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\obj\Debug\Proyecto en Sharp.exe
+C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\obj\Debug\Proyecto en Sharp.pdb
