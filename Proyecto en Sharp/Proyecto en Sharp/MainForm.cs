@@ -76,5 +76,11 @@ namespace Proyecto_en_Sharp
 		    	MessageBox.Show("No se pude calcular modulo entre 0");
 		    }
 		}   
+		
+		void BtnFormulaGneralClick(object sender, EventArgs e)
+		{
+			Valores formulario = new Valores();
+			formulario.Show();
+		}
 	}
 }

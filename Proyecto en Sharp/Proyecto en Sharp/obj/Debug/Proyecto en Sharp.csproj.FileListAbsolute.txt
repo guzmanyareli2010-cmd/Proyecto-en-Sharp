@@ -5,3 +5,4 @@ C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\bin\Debug\P
 C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\bin\Debug\Proyecto en Sharp.pdb
 C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\obj\Debug\Proyecto en Sharp.exe
 C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\obj\Debug\Proyecto en Sharp.pdb
+C:\Users\guzma\Proyecto-en-Sharp\Proyecto en Sharp\Proyecto en Sharp\obj\Debug\Proyecto_en_Sharp.Valores.resources
