@@ -48,11 +48,12 @@ namespace Proyecto_en_Sharp
 			this.txtX1 = new System.Windows.Forms.TextBox();
 			this.txtX2 = new System.Windows.Forms.TextBox();
 			this.btnRegresar = new System.Windows.Forms.Button();
+			this.label6 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(13, 28);
+			this.label1.Location = new System.Drawing.Point(13, 73);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 0;
@@ -60,14 +61,14 @@ namespace Proyecto_en_Sharp
 			// 
 			// txtValorA
 			// 
-			this.txtValorA.Location = new System.Drawing.Point(97, 25);
+			this.txtValorA.Location = new System.Drawing.Point(107, 70);
 			this.txtValorA.Name = "txtValorA";
 			this.txtValorA.Size = new System.Drawing.Size(100, 26);
 			this.txtValorA.TabIndex = 1;
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(13, 68);
+			this.label2.Location = new System.Drawing.Point(13, 106);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 2;
@@ -75,14 +76,14 @@ namespace Proyecto_en_Sharp
 			// 
 			// txtValorB
 			// 
-			this.txtValorB.Location = new System.Drawing.Point(97, 65);
+			this.txtValorB.Location = new System.Drawing.Point(107, 102);
 			this.txtValorB.Name = "txtValorB";
 			this.txtValorB.Size = new System.Drawing.Size(100, 26);
 			this.txtValorB.TabIndex = 3;
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(13, 106);
+			this.label3.Location = new System.Drawing.Point(13, 135);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);
 			this.label3.TabIndex = 4;
@@ -90,24 +91,25 @@ namespace Proyecto_en_Sharp
 			// 
 			// txtValorC
 			// 
-			this.txtValorC.Location = new System.Drawing.Point(97, 106);
+			this.txtValorC.Location = new System.Drawing.Point(107, 132);
 			this.txtValorC.Name = "txtValorC";
 			this.txtValorC.Size = new System.Drawing.Size(100, 26);
 			this.txtValorC.TabIndex = 5;
 			// 
 			// BtnCalcular
 			// 
-			this.BtnCalcular.Location = new System.Drawing.Point(13, 138);
+			this.BtnCalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+			this.BtnCalcular.Location = new System.Drawing.Point(13, 166);
 			this.BtnCalcular.Name = "BtnCalcular";
 			this.BtnCalcular.Size = new System.Drawing.Size(88, 45);
 			this.BtnCalcular.TabIndex = 6;
 			this.BtnCalcular.Text = "Calcular ";
-			this.BtnCalcular.UseVisualStyleBackColor = true;
+			this.BtnCalcular.UseVisualStyleBackColor = false;
 			this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcularClick);
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(244, 44);
+			this.label4.Location = new System.Drawing.Point(244, 91);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(100, 23);
 			this.label4.TabIndex = 7;
@@ -115,7 +117,7 @@ namespace Proyecto_en_Sharp
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(244, 73);
+			this.label5.Location = new System.Drawing.Point(244, 126);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(100, 23);
 			this.label5.TabIndex = 8;
@@ -123,33 +125,45 @@ namespace Proyecto_en_Sharp
 			// 
 			// txtX1
 			// 
-			this.txtX1.Location = new System.Drawing.Point(280, 44);
+			this.txtX1.Location = new System.Drawing.Point(296, 91);
 			this.txtX1.Name = "txtX1";
 			this.txtX1.Size = new System.Drawing.Size(100, 26);
 			this.txtX1.TabIndex = 9;
 			// 
 			// txtX2
 			// 
-			this.txtX2.Location = new System.Drawing.Point(280, 76);
+			this.txtX2.Location = new System.Drawing.Point(296, 123);
 			this.txtX2.Name = "txtX2";
 			this.txtX2.Size = new System.Drawing.Size(100, 26);
 			this.txtX2.TabIndex = 10;
 			// 
 			// btnRegresar
 			// 
-			this.btnRegresar.Location = new System.Drawing.Point(107, 138);
+			this.btnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+			this.btnRegresar.Location = new System.Drawing.Point(107, 166);
 			this.btnRegresar.Name = "btnRegresar";
 			this.btnRegresar.Size = new System.Drawing.Size(106, 45);
 			this.btnRegresar.TabIndex = 11;
 			this.btnRegresar.Text = "Regresar";
-			this.btnRegresar.UseVisualStyleBackColor = true;
+			this.btnRegresar.UseVisualStyleBackColor = false;
 			this.btnRegresar.Click += new System.EventHandler(this.BtnRegresarClick);
+			// 
+			// label6
+			// 
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.Location = new System.Drawing.Point(51, 13);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(227, 45);
+			this.label6.TabIndex = 12;
+			this.label6.Text = "Formula General";
 			// 
 			// Valores
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(406, 199);
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+			this.ClientSize = new System.Drawing.Size(455, 223);
+			this.Controls.Add(this.label6);
 			this.Controls.Add(this.btnRegresar);
 			this.Controls.Add(this.txtX2);
 			this.Controls.Add(this.txtX1);
@@ -167,6 +181,7 @@ namespace Proyecto_en_Sharp
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Button btnRegresar;
 		private System.Windows.Forms.TextBox txtX2;
 		private System.Windows.Forms.TextBox txtX1;
